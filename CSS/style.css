@@ -1,3 +1,5 @@
+
+/* ----general */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +9,9 @@
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  padding: 10px;
 }
+/* ----/general */
 
 /* ----header */
 header {
@@ -34,12 +38,12 @@ section {
 }
 
 section:nth-child(odd) {
-  background: #d193e0;
   width: 25%;
 }
 
 section:first-child {
   height: 400px;
+  background: #d193e0;
 }
 
 section:nth-child(2) {
@@ -48,15 +52,22 @@ section:nth-child(2) {
   height: 500px;
   margin: 0 10px;
 }
-
-section:last-child {
-  height: 450px;
-}
 /* ----/section */
+
+/* ----article */
+.article {
+  height: 220px;
+  background: #d193e0;
+}
+
+.article:first-child {
+  margin-bottom: 10px;
+}
+/* ----/article */
 
 /* ----footer */
 footer {
-  height: 50px;
+  height: 70px;
   background: lightblue;
 }
 /* ----/footer */
